@@ -1,0 +1,59 @@
+/* App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  input[type="file"] {
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
+  /* Map container styling */
+  .leaflet-container {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  /* Optional: Custom styles for the popup */
+  .leaflet-popup-content-wrapper {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .leaflet-popup-content {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .leaflet-popup-tip-container {
+    display: none; /* Hide the default leaflet popup tip */
+  }
+  
